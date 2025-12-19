@@ -1,0 +1,27 @@
+=== ADVANCED STATISTICAL ANALYSIS REPORT ===
+--------------------------------------------------
+CITY-WIDE AVERAGE:
+  > Temperature: 11.21°C
+  > Humidity:    75.48%
+--------------------------------------------------
+
+SENSOR: SENSOR01
+  [Temperature] Avg: 11.23  | StdDev: 2.83   | Range: [0.0, 21.4]
+  [Humidity]    Avg: 75.16  | StdDev: 13.03  | Range: [0.0, 95.0]
+........................................
+SENSOR: SENSOR02
+  [Temperature] Avg: 10.95  | StdDev: 3.03   | Range: [0.0, 22.2]
+  [Humidity]    Avg: 77.12  | StdDev: 13.82  | Range: [0.0, 99.9]
+........................................
+SENSOR: SENSOR03
+  [Temperature] Avg: 21.15  | StdDev: 0.05   | Range: [21.1, 21.2]
+  [Humidity]    Avg: 67.8   | StdDev: 0.2    | Range: [67.6, 68.0]
+........................................
+SENSOR: SENSOR04
+  [Temperature] Avg: 11.41  | StdDev: 2.67   | Range: [0.0, 22.0]
+  [Humidity]    Avg: 74.19  | StdDev: 14.51  | Range: [0.0, 94.6]
+........................................
+SENSOR: SENSOR05
+  [Temperature] Avg: 0      | StdDev: 0      | Range: [N/A, N/A]
+  [Humidity]    Avg: 0      | StdDev: 0      | Range: [N/A, N/A]
+........................................

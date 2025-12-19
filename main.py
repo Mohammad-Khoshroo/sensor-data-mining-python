@@ -56,9 +56,21 @@ def main():
     # Output Reports
     sorted_errors = sorted(all_errors, key=lambda x: x['time'])
     report.generate_error_log(sorted_errors, os.path.join(PROCESSED_DIR, "errors.log"))
-    report.generate_data_report(normalized_data, timeline, sensor_names, os.path.join(PROCESSED_DIR, "data_report.log"))
+    report.generate_data_log(normalized_data, timeline, sensor_names, os.path.join(PROCESSED_DIR, "data_report.log"))
     
     print("Processing Complete.")
+    
+    stats = proc.statistics(normalized_data, sensor_names)
+    
+    # ۲. ذخیره داده‌های تمیز در قالب JSON (به جای CSV) 
+    json_path = os.path.join(PROCESSED_DIR, "clean_data.json")
+    report.generate_data_json(normalized_data, json_path)
+    
+    # ۳. تولید گزارش‌های متنی
+    sorted_errors = sorted(all_errors, key=lambda x: x['time'])
+    report.generate_error_log(sorted_errors, os.path.join(PROCESSED_DIR, "errors.log"))
+    report.generate_data_log(normalized_data, timeline, sensor_names, os.path.join(PROCESSED_DIR, "data_report.log"))
+    report.statistics_report(stats, os.path.join(PROCESSED_DIR, "stats_report.log"))
 
 if __name__ == "__main__":
     main()
