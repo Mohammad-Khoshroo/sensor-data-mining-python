@@ -1,0 +1,122 @@
+File               | Line   | Reason                 | Original Content
+------------------------------------------------------------------------
+SENSOR01_DIRTY.CSV | 20     | Temp range (999.0)     | 02.09.2024;09:42;999;62.6
+SENSOR01_DIRTY.CSV | 51     | Temp range (999.0)     | 02.09.2024;10:14;999;69.7
+SENSOR01_DIRTY.CSV | 79     | Hum range (999.0)      | 02.09.2024;10:42;11.3;999
+SENSOR01_DIRTY.CSV | 80     | Temp range (999.0)     | 02.09.2024;10:43;999;64.0
+SENSOR01_DIRTY.CSV | 87     | Time out of range      | 02.09.2024;25:70;11.2;80.8
+SENSOR01_DIRTY.CSV | 91     | Time out of range      | 02.09.2024;25:70;11.4;83.0
+SENSOR01_DIRTY.CSV | 94     | Hum range (999.0)      | 02.09.2024;10:56;11.4;999
+SENSOR01_DIRTY.CSV | 112    | Temp range (999.0)     | 02.09.2024;11:14;999;90.0
+SENSOR01_DIRTY.CSV | 149    | Hum range (999.0)      | 02.09.2024;11:50;;999
+SENSOR01_DIRTY.CSV | 151    | Hum range (999.0)      | 02.09.2024;11:52;12.5;999
+SENSOR01_DIRTY.CSV | 207    | Hum range (999.0)      | 02.09.2024;12:54;12.4;999
+SENSOR01_DIRTY.CSV | 214    | Time out of range      | 02.09.2024;25:70;12.0;
+SENSOR01_DIRTY.CSV | 256    | Temp range (999.0)     | 02.09.2024;13:43;999;94.9
+SENSOR01_DIRTY.CSV | 284    | Hum range (999.0)      | 02.09.2024;14:10;10.9;999
+SENSOR01_DIRTY.CSV | 289    | Time out of range      | 02.09.2024;25:70;;86.2
+SENSOR01_DIRTY.CSV | 330    | Time out of range      | 02.09.2024;25:70;11.5;67.8
+SENSOR01_DIRTY.CSV | 334    | Time out of range      | 02.09.2024;25:70;11.2;86.0
+SENSOR01_DIRTY.CSV | 338    | Time out of range      | 02.09.2024;25:70;11.7;93.3
+SENSOR01_DIRTY.CSV | 344    | Time out of range      | 02.09.2024;25:70;11.8;85.7
+SENSOR01_DIRTY.CSV | 366    | Time out of range      | 02.09.2024;25:70;12.4;93.0
+SENSOR01_DIRTY.CSV | 399    | Hum range (999.0)      | 02.09.2024;16:03;14.4;999
+SENSOR01_DIRTY.CSV | 402    | Hum range (999.0)      | 02.09.2024;16:05;NaN;999
+SENSOR01_DIRTY.CSV | 447    | Hum range (999.0)      | 02.09.2024;16:52;13.0;999
+SENSOR01_DIRTY.CSV | 456    | Hum range (999.0)      | 02.09.2024;17:01;12.9;999
+SENSOR01_DIRTY.CSV | 465    | Hum range (999.0)      | 02.09.2024;17:10;12.7;999
+SENSOR01_DIRTY.CSV | 501    | Temp range (999.0)     | 02.09.2024;17:46;999;75.0
+SENSOR01_DIRTY.CSV | 524    | Hum range (999.0)      | 02.09.2024;18:07;11.5;999
+SENSOR01_DIRTY.CSV | 570    | Temp range (999.0)     | 02.09.2024;18:53;999;
+SENSOR01_DIRTY.CSV | 589    | Hum range (999.0)      | 02.09.2024;19:11;9.7;999
+SENSOR01_DIRTY.CSV | 594    | Temp range (999.0)     | 02.09.2024;19:16;999;NaN
+SENSOR01_DIRTY.CSV | 611    | Hum range (999.0)      | 02.09.2024;19:31;NaN;999
+SENSOR01_DIRTY.CSV | 615    | Time out of range      | 02.09.2024;25:70;9.3;    64.9
+SENSOR01_DIRTY.CSV | 645    | Time out of range      | 02.09.2024;25:70;9.2;83.7
+SENSOR01_DIRTY.CSV | 698    | Hum range (999.0)      | 02.09.2024;21:01;8.7;999
+SENSOR01_DIRTY.CSV | 737    | Temp range (999.0)     | 02.09.2024;21:41;999;NaN
+SENSOR01_DIRTY.CSV | 820    | Temp range (999.0)     | 02.09.2024;23:02;999;66.2
+SENSOR01_DIRTY.CSV | 860    | Time out of range      | 02.09.2024;25:70;7.9;70.7
+SENSOR02_DIRTY.CSV | 5      | Time out of range      | 02.09.2024;25:70;22.0;63.7
+SENSOR02_DIRTY.CSV | 14     | Time out of range      | 02.09.2024;25:70;22.1;62.0
+SENSOR02_DIRTY.CSV | 16     | Time out of range      | 02.09.2024;25:70;22.0;62.3
+SENSOR02_DIRTY.CSV | 27     | Hum range (999.0)      | 02.09.2024;09:51;17.1;999
+SENSOR02_DIRTY.CSV | 40     | Time out of range      | 02.09.2024;25:70;;73.1
+SENSOR02_DIRTY.CSV | 52     | Temp range (999.0)     | 02.09.2024;10:16;999;71.0
+SENSOR02_DIRTY.CSV | 65     | Temp range (999.0)     | 02.09.2024;10:29;999;68.4
+SENSOR02_DIRTY.CSV | 121    | Temp range (999.0)     | 02.09.2024;11:27;999;94.2
+SENSOR02_DIRTY.CSV | 145    | Time out of range      | 02.09.2024;25:70;12.7;83.7
+SENSOR02_DIRTY.CSV | 162    | Time out of range      | 02.09.2024;25:70;11.9;87.2
+SENSOR02_DIRTY.CSV | 210    | Temp range (999.0)     | 02.09.2024;12:47;999;78.6
+SENSOR02_DIRTY.CSV | 234    | Time out of range      | 02.09.2024;25:70;11.1;NaN
+SENSOR02_DIRTY.CSV | 235    | Time out of range      | 02.09.2024;25:70;11.1;76.0
+SENSOR02_DIRTY.CSV | 246    | Time out of range      | 02.09.2024;25:70;999;74.6
+SENSOR02_DIRTY.CSV | 250    | Hum range (999.0)      | 02.09.2024;13:25;11.0;999
+SENSOR02_DIRTY.CSV | 263    | Time out of range      | 02.09.2024;25:70;NaN;96.3
+SENSOR02_DIRTY.CSV | 311    | Temp range (999.0)     | 02.09.2024;14:23;999;97.1
+SENSOR02_DIRTY.CSV | 321    | Temp range (999.0)     | 02.09.2024;14:34;999;94.4
+SENSOR02_DIRTY.CSV | 400    | Temp range (999.0)     | 02.09.2024;15:52;999;95.5
+SENSOR02_DIRTY.CSV | 411    | Time out of range      | 02.09.2024;25:70;14.1;92.7
+SENSOR02_DIRTY.CSV | 485    | Hum range (999.0)      | 02.09.2024;17:12;12.4;999
+SENSOR02_DIRTY.CSV | 494    | Time out of range      | 02.09.2024;25:70;NaN;82.6
+SENSOR02_DIRTY.CSV | 509    | Hum range (999.0)      | 02.09.2024;17:37;12.0;999
+SENSOR02_DIRTY.CSV | 524    | Temp range (999.0)     | 02.09.2024;17:53;999;73.2
+SENSOR02_DIRTY.CSV | 537    | Hum range (999.0)      | 02.09.2024;18:07;11.3;999
+SENSOR02_DIRTY.CSV | 562    | Temp range (999.0)     | 02.09.2024;18:29;999;78.3
+SENSOR02_DIRTY.CSV | 563    | Hum range (999.0)      | 02.09.2024;18:30;11.0;999
+SENSOR02_DIRTY.CSV | 569    | Temp range (999.0)     | 02.09.2024;18:37;999;68.3
+SENSOR02_DIRTY.CSV | 570    | Time out of range      | 02.09.2024;25:70;10.3;71.6
+SENSOR02_DIRTY.CSV | 603    | Time out of range      | 02.09.2024;25:70;9.5;67.1
+SENSOR02_DIRTY.CSV | 639    | Time out of range      | 02.09.2024;25:70;-99;67.2
+SENSOR02_DIRTY.CSV | 654    | Time out of range      | 02.09.2024;25:70;9.2;86.0
+SENSOR02_DIRTY.CSV | 685    | Hum range (999.0)      | 02.09.2024;20:33;;999
+SENSOR02_DIRTY.CSV | 699    | Time out of range      | 02.09.2024;25:70;9.0;68.1
+SENSOR02_DIRTY.CSV | 702    | Time out of range      | 02.09.2024;25:70;8.9;67.6
+SENSOR02_DIRTY.CSV | 714    | Hum range (999.0)      | 02.09.2024;21:00;8.5;999
+SENSOR02_DIRTY.CSV | 731    | Time out of range      | 02.09.2024;25:70;8.0;65.5
+SENSOR02_DIRTY.CSV | 734    | Time out of range      | 02.09.2024;25:70;8.0;67.1
+SENSOR02_DIRTY.CSV | 763    | Time out of range      | 02.09.2024;25:70;9.1;85.8
+SENSOR02_DIRTY.CSV | 822    | Time out of range      | 02.09.2024;25:70;9.0;73.7
+SENSOR02_DIRTY.CSV | 846    | Hum range (999.0)      | 02.09.2024;23:11;8.3;999
+SENSOR02_DIRTY.CSV | 853    | Hum range (999.0)      | 02.09.2024;23:16;8.2;999
+SENSOR04_DIRTY.CSV | 17     | Temp range (999.0)     | 02.09.2024;09:44;999;59.7
+SENSOR04_DIRTY.CSV | 25     | Time out of range      | 02.09.2024;25:70;17.1;65.2
+SENSOR04_DIRTY.CSV | 37     | Time out of range      | 02.09.2024;25:70;14.8;68.5
+SENSOR04_DIRTY.CSV | 39     | Time out of range      | 02.09.2024;25:70;14.5;0.0
+SENSOR04_DIRTY.CSV | 84     | Hum range (999.0)      | 02.09.2024;10:53;11.4;999
+SENSOR04_DIRTY.CSV | 94     | Time out of range      | 02.09.2024;25:70;11.6;90.5
+SENSOR04_DIRTY.CSV | 102    | Temp range (999.0)     | 02.09.2024;11:08;999;84.6
+SENSOR04_DIRTY.CSV | 159    | Temp range (999.0)     | 02.09.2024;12:05;999;85.9
+SENSOR04_DIRTY.CSV | 278    | Hum range (999.0)      | 02.09.2024;13:55;12.0;999
+SENSOR04_DIRTY.CSV | 289    | Time out of range      | 02.09.2024;25:70;11.3;65.1
+SENSOR04_DIRTY.CSV | 309    | Hum range (999.0)      | 02.09.2024;14:28;12.1;999
+SENSOR04_DIRTY.CSV | 328    | Hum range (999.0)      | 02.09.2024;14:45;12.0;999
+SENSOR04_DIRTY.CSV | 358    | Temp range (999.0)     | 02.09.2024;15:13;999;83.0
+SENSOR04_DIRTY.CSV | 365    | Hum range (999.0)      | 02.09.2024;15:20;12.0;999
+SENSOR04_DIRTY.CSV | 378    | Temp range (999.0)     | 02.09.2024;15:33;999;92.5
+SENSOR04_DIRTY.CSV | 388    | Time out of range      | 02.09.2024;25:70;12.9;94.5
+SENSOR04_DIRTY.CSV | 404    | Time out of range      | 02.09.2024;25:70;999;93.4
+SENSOR04_DIRTY.CSV | 405    | Temp range (999.0)     | 02.09.2024;16:00;999;92.7
+SENSOR04_DIRTY.CSV | 407    | Hum range (999.0)      | 02.09.2024;16:02;13.9;999
+SENSOR04_DIRTY.CSV | 408    | Temp range (999.0)     | 02.09.2024;16:03;999;92.1
+SENSOR04_DIRTY.CSV | 414    | Time out of range      | 02.09.2024;25:70;14.0;90.8
+SENSOR04_DIRTY.CSV | 435    | Time out of range      | 02.09.2024;25:70;13.6;82.5
+SENSOR04_DIRTY.CSV | 446    | Time out of range      | 02.09.2024;25:70;13.4;77.9
+SENSOR04_DIRTY.CSV | 510    | Time out of range      | 02.09.2024;25:70;;70.5
+SENSOR04_DIRTY.CSV | 566    | Temp range (999.0)     | 02.09.2024;18:31;999;
+SENSOR04_DIRTY.CSV | 574    | Hum range (999.0)      | 02.09.2024;18:39;10.9;999
+SENSOR04_DIRTY.CSV | 580    | Hum range (999.0)      | 02.09.2024;18:44;10.9;999
+SENSOR04_DIRTY.CSV | 592    | Time out of range      | 02.09.2024;25:70;10.5;65.6
+SENSOR04_DIRTY.CSV | 641    | Temp range (999.0)     | 02.09.2024;19:43;999;65.9
+SENSOR04_DIRTY.CSV | 677    | Time out of range      | 02.09.2024;25:70;9.4;73.4
+SENSOR04_DIRTY.CSV | 684    | Hum range (999.0)      | 02.09.2024;20:26;9.5;999
+SENSOR04_DIRTY.CSV | 689    | Time out of range      | 02.09.2024;25:70;9.5;  73.3
+SENSOR04_DIRTY.CSV | 698    | Hum range (999.0)      | 02.09.2024;20:35;9.5;999
+SENSOR04_DIRTY.CSV | 719    | Time out of range      | 02.09.2024;25:70;9.1;62.8
+SENSOR04_DIRTY.CSV | 728    | Hum range (999.0)      | 02.09.2024;21:08;8.9;999
+SENSOR04_DIRTY.CSV | 731    | Time out of range      | 02.09.2024;25:70;8.8;0.0
+SENSOR04_DIRTY.CSV | 766    | Time out of range      | 02.09.2024;25:70;8.8;84.4
+SENSOR04_DIRTY.CSV | 767    | Time out of range      | 02.09.2024;25:70;8.9;84.1
+SENSOR04_DIRTY.CSV | 807    | Hum range (999.0)      | 02.09.2024;22:29;9.5;999
+SENSOR04_DIRTY.CSV | 861    | Time out of range      | 02.09.2024;25:70;8.4;68.1
+SENSOR04_DIRTY.CSV | 879    | Hum range (999.0)      | 02.09.2024;23:43;NaN;999
