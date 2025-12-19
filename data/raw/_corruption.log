@@ -1,0 +1,608 @@
+DATA CORRUPTION PROCESS WITH DETAILED REPORTING
+Generated: 2025-12-19 20:39:44
+Target: 10 days × 9 sensors = 90 files
+Corruption Rate: 15%
+======================================================================
+
+
+PROCESSING DAY 01:
+--------------------------------------------------
+SKIPPED: File is empty: data/raw/SENSOR01_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR02_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR03_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR04_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR05_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR06_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR07_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR08_DAY01.csv
+SKIPPED: File is empty: data/raw/SENSOR09_DAY01.csv
+
+Day 01 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 0.19 seconds
+
+PROCESSING DAY 02:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY02.csv -> SENSOR01_DAY02_raw.csv
+  Original rows: 10482, After corruption: 9958 (Deleted: 524)
+  Temperature corruptions: 1522
+  Humidity corruptions: 1448
+  Time corruptions: 201
+  Whitespace additions: 40
+  Blank lines added: 739
+SUCCESS: SENSOR02_DAY02.csv -> SENSOR02_DAY02_raw.csv
+  Original rows: 10484, After corruption: 9960 (Deleted: 524)
+  Temperature corruptions: 1451
+  Humidity corruptions: 1460
+  Time corruptions: 193
+  Whitespace additions: 41
+  Blank lines added: 779
+SUCCESS: SENSOR03_DAY02.csv -> SENSOR03_DAY02_raw.csv
+  Original rows: 6, After corruption: 6 (Deleted: 0)
+  Temperature corruptions: 0
+  Humidity corruptions: 1
+  Time corruptions: 0
+  Whitespace additions: 0
+  Blank lines added: 0
+SUCCESS: SENSOR04_DAY02.csv -> SENSOR04_DAY02_raw.csv
+  Original rows: 10455, After corruption: 9932 (Deleted: 523)
+  Temperature corruptions: 1543
+  Humidity corruptions: 1449
+  Time corruptions: 211
+  Whitespace additions: 25
+  Blank lines added: 703
+SKIPPED: File is empty: data/raw/SENSOR05_DAY02.csv
+SUCCESS: SENSOR06_DAY02.csv -> SENSOR06_DAY02_raw.csv
+  Original rows: 10417, After corruption: 9896 (Deleted: 521)
+  Temperature corruptions: 1441
+  Humidity corruptions: 1514
+  Time corruptions: 183
+  Whitespace additions: 49
+  Blank lines added: 778
+SUCCESS: SENSOR07_DAY02.csv -> SENSOR07_DAY02_raw.csv
+  Original rows: 10398, After corruption: 9878 (Deleted: 520)
+  Temperature corruptions: 1509
+  Humidity corruptions: 1473
+  Time corruptions: 189
+  Whitespace additions: 44
+  Blank lines added: 733
+SUCCESS: SENSOR08_DAY02.csv -> SENSOR08_DAY02_raw.csv
+  Original rows: 10375, After corruption: 9856 (Deleted: 519)
+  Temperature corruptions: 1533
+  Humidity corruptions: 1461
+  Time corruptions: 182
+  Whitespace additions: 44
+  Blank lines added: 727
+SKIPPED: File is empty: data/raw/SENSOR09_DAY02.csv
+
+Day 02 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 0.98 seconds
+
+PROCESSING DAY 03:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY03.csv -> SENSOR01_DAY03_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2429
+  Humidity corruptions: 2460
+  Time corruptions: 345
+  Whitespace additions: 68
+  Blank lines added: 1229
+SUCCESS: SENSOR02_DAY03.csv -> SENSOR02_DAY03_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2398
+  Humidity corruptions: 2394
+  Time corruptions: 342
+  Whitespace additions: 57
+  Blank lines added: 1258
+SKIPPED: File is empty: data/raw/SENSOR03_DAY03.csv
+SUCCESS: SENSOR04_DAY03.csv -> SENSOR04_DAY03_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2455
+  Humidity corruptions: 2472
+  Time corruptions: 330
+  Whitespace additions: 70
+  Blank lines added: 1317
+SKIPPED: File is empty: data/raw/SENSOR05_DAY03.csv
+SUCCESS: SENSOR06_DAY03.csv -> SENSOR06_DAY03_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2484
+  Humidity corruptions: 2429
+  Time corruptions: 322
+  Whitespace additions: 68
+  Blank lines added: 1277
+SUCCESS: SENSOR07_DAY03.csv -> SENSOR07_DAY03_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2489
+  Humidity corruptions: 2390
+  Time corruptions: 323
+  Whitespace additions: 74
+  Blank lines added: 1163
+SUCCESS: SENSOR08_DAY03.csv -> SENSOR08_DAY03_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2460
+  Humidity corruptions: 2542
+  Time corruptions: 349
+  Whitespace additions: 68
+  Blank lines added: 1228
+SKIPPED: File is empty: data/raw/SENSOR09_DAY03.csv
+
+Day 03 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.49 seconds
+
+PROCESSING DAY 04:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY04.csv -> SENSOR01_DAY04_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2522
+  Humidity corruptions: 2398
+  Time corruptions: 315
+  Whitespace additions: 57
+  Blank lines added: 1253
+SUCCESS: SENSOR02_DAY04.csv -> SENSOR02_DAY04_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2495
+  Humidity corruptions: 2471
+  Time corruptions: 327
+  Whitespace additions: 70
+  Blank lines added: 1229
+SKIPPED: File is empty: data/raw/SENSOR03_DAY04.csv
+SUCCESS: SENSOR04_DAY04.csv -> SENSOR04_DAY04_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2448
+  Humidity corruptions: 2507
+  Time corruptions: 359
+  Whitespace additions: 56
+  Blank lines added: 1162
+SKIPPED: File is empty: data/raw/SENSOR05_DAY04.csv
+SUCCESS: SENSOR06_DAY04.csv -> SENSOR06_DAY04_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2486
+  Humidity corruptions: 2471
+  Time corruptions: 334
+  Whitespace additions: 84
+  Blank lines added: 1299
+SUCCESS: SENSOR07_DAY04.csv -> SENSOR07_DAY04_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2537
+  Humidity corruptions: 2482
+  Time corruptions: 326
+  Whitespace additions: 65
+  Blank lines added: 1241
+SUCCESS: SENSOR08_DAY04.csv -> SENSOR08_DAY04_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2598
+  Humidity corruptions: 2529
+  Time corruptions: 338
+  Whitespace additions: 69
+  Blank lines added: 1205
+SKIPPED: File is empty: data/raw/SENSOR09_DAY04.csv
+
+Day 04 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.42 seconds
+
+PROCESSING DAY 05:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY05.csv -> SENSOR01_DAY05_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2504
+  Humidity corruptions: 2529
+  Time corruptions: 355
+  Whitespace additions: 62
+  Blank lines added: 1220
+SUCCESS: SENSOR02_DAY05.csv -> SENSOR02_DAY05_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2525
+  Humidity corruptions: 2429
+  Time corruptions: 323
+  Whitespace additions: 67
+  Blank lines added: 1241
+SKIPPED: File is empty: data/raw/SENSOR03_DAY05.csv
+SUCCESS: SENSOR04_DAY05.csv -> SENSOR04_DAY05_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2420
+  Humidity corruptions: 2438
+  Time corruptions: 309
+  Whitespace additions: 59
+  Blank lines added: 1212
+SKIPPED: File is empty: data/raw/SENSOR05_DAY05.csv
+SUCCESS: SENSOR06_DAY05.csv -> SENSOR06_DAY05_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2398
+  Humidity corruptions: 2430
+  Time corruptions: 292
+  Whitespace additions: 68
+  Blank lines added: 1171
+SUCCESS: SENSOR07_DAY05.csv -> SENSOR07_DAY05_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2520
+  Humidity corruptions: 2521
+  Time corruptions: 343
+  Whitespace additions: 74
+  Blank lines added: 1218
+SUCCESS: SENSOR08_DAY05.csv -> SENSOR08_DAY05_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2434
+  Humidity corruptions: 2485
+  Time corruptions: 351
+  Whitespace additions: 59
+  Blank lines added: 1236
+SKIPPED: File is empty: data/raw/SENSOR09_DAY05.csv
+
+Day 05 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 0.84 seconds
+
+PROCESSING DAY 06:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY06.csv -> SENSOR01_DAY06_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2394
+  Humidity corruptions: 2443
+  Time corruptions: 319
+  Whitespace additions: 69
+  Blank lines added: 1225
+SUCCESS: SENSOR02_DAY06.csv -> SENSOR02_DAY06_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2369
+  Humidity corruptions: 2463
+  Time corruptions: 310
+  Whitespace additions: 53
+  Blank lines added: 1215
+SUCCESS: SENSOR03_DAY06.csv -> SENSOR03_DAY06_raw.csv
+  Original rows: 7104, After corruption: 6749 (Deleted: 355)
+  Temperature corruptions: 974
+  Humidity corruptions: 1065
+  Time corruptions: 126
+  Whitespace additions: 25
+  Blank lines added: 485
+SUCCESS: SENSOR04_DAY06.csv -> SENSOR04_DAY06_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2522
+  Humidity corruptions: 2483
+  Time corruptions: 318
+  Whitespace additions: 84
+  Blank lines added: 1165
+SKIPPED: File is empty: data/raw/SENSOR05_DAY06.csv
+SUCCESS: SENSOR06_DAY06.csv -> SENSOR06_DAY06_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2461
+  Humidity corruptions: 2441
+  Time corruptions: 328
+  Whitespace additions: 65
+  Blank lines added: 1243
+SUCCESS: SENSOR07_DAY06.csv -> SENSOR07_DAY06_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2466
+  Humidity corruptions: 2474
+  Time corruptions: 330
+  Whitespace additions: 62
+  Blank lines added: 1179
+SUCCESS: SENSOR08_DAY06.csv -> SENSOR08_DAY06_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2415
+  Humidity corruptions: 2409
+  Time corruptions: 351
+  Whitespace additions: 69
+  Blank lines added: 1217
+SKIPPED: File is empty: data/raw/SENSOR09_DAY06.csv
+
+Day 06 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.29 seconds
+
+PROCESSING DAY 07:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY07.csv -> SENSOR01_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2415
+  Humidity corruptions: 2410
+  Time corruptions: 332
+  Whitespace additions: 78
+  Blank lines added: 1166
+SUCCESS: SENSOR02_DAY07.csv -> SENSOR02_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2447
+  Humidity corruptions: 2470
+  Time corruptions: 378
+  Whitespace additions: 58
+  Blank lines added: 1172
+SUCCESS: SENSOR03_DAY07.csv -> SENSOR03_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2526
+  Humidity corruptions: 2462
+  Time corruptions: 327
+  Whitespace additions: 69
+  Blank lines added: 1241
+SUCCESS: SENSOR04_DAY07.csv -> SENSOR04_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2455
+  Humidity corruptions: 2495
+  Time corruptions: 309
+  Whitespace additions: 52
+  Blank lines added: 1269
+SKIPPED: File is empty: data/raw/SENSOR05_DAY07.csv
+SUCCESS: SENSOR06_DAY07.csv -> SENSOR06_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2458
+  Humidity corruptions: 2470
+  Time corruptions: 292
+  Whitespace additions: 65
+  Blank lines added: 1230
+SUCCESS: SENSOR07_DAY07.csv -> SENSOR07_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2423
+  Humidity corruptions: 2424
+  Time corruptions: 337
+  Whitespace additions: 61
+  Blank lines added: 1175
+SUCCESS: SENSOR08_DAY07.csv -> SENSOR08_DAY07_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2413
+  Humidity corruptions: 2492
+  Time corruptions: 343
+  Whitespace additions: 57
+  Blank lines added: 1179
+SKIPPED: File is empty: data/raw/SENSOR09_DAY07.csv
+
+Day 07 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.36 seconds
+
+PROCESSING DAY 08:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY08.csv -> SENSOR01_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2493
+  Humidity corruptions: 2492
+  Time corruptions: 316
+  Whitespace additions: 67
+  Blank lines added: 1285
+SUCCESS: SENSOR02_DAY08.csv -> SENSOR02_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2524
+  Humidity corruptions: 2463
+  Time corruptions: 364
+  Whitespace additions: 64
+  Blank lines added: 1225
+SUCCESS: SENSOR03_DAY08.csv -> SENSOR03_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2443
+  Humidity corruptions: 2485
+  Time corruptions: 307
+  Whitespace additions: 60
+  Blank lines added: 1138
+SUCCESS: SENSOR04_DAY08.csv -> SENSOR04_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2429
+  Humidity corruptions: 2402
+  Time corruptions: 371
+  Whitespace additions: 73
+  Blank lines added: 1286
+SKIPPED: File is empty: data/raw/SENSOR05_DAY08.csv
+SUCCESS: SENSOR06_DAY08.csv -> SENSOR06_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2512
+  Humidity corruptions: 2549
+  Time corruptions: 322
+  Whitespace additions: 72
+  Blank lines added: 1240
+SUCCESS: SENSOR07_DAY08.csv -> SENSOR07_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2496
+  Humidity corruptions: 2494
+  Time corruptions: 325
+  Whitespace additions: 74
+  Blank lines added: 1225
+SUCCESS: SENSOR08_DAY08.csv -> SENSOR08_DAY08_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2462
+  Humidity corruptions: 2435
+  Time corruptions: 336
+  Whitespace additions: 69
+  Blank lines added: 1180
+SKIPPED: File is empty: data/raw/SENSOR09_DAY08.csv
+
+Day 08 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.37 seconds
+
+PROCESSING DAY 09:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY09.csv -> SENSOR01_DAY09_raw.csv
+  Original rows: 16314, After corruption: 15498 (Deleted: 816)
+  Temperature corruptions: 2315
+  Humidity corruptions: 2360
+  Time corruptions: 322
+  Whitespace additions: 52
+  Blank lines added: 1171
+SUCCESS: SENSOR02_DAY09.csv -> SENSOR02_DAY09_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2468
+  Humidity corruptions: 2497
+  Time corruptions: 323
+  Whitespace additions: 54
+  Blank lines added: 1210
+SUCCESS: SENSOR03_DAY09.csv -> SENSOR03_DAY09_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2463
+  Humidity corruptions: 2513
+  Time corruptions: 344
+  Whitespace additions: 63
+  Blank lines added: 1306
+SUCCESS: SENSOR04_DAY09.csv -> SENSOR04_DAY09_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2502
+  Humidity corruptions: 2456
+  Time corruptions: 336
+  Whitespace additions: 63
+  Blank lines added: 1244
+SUCCESS: SENSOR05_DAY09.csv -> SENSOR05_DAY09_raw.csv
+  Original rows: 5601, After corruption: 5321 (Deleted: 280)
+  Temperature corruptions: 770
+  Humidity corruptions: 814
+  Time corruptions: 110
+  Whitespace additions: 23
+  Blank lines added: 422
+SUCCESS: SENSOR06_DAY09.csv -> SENSOR06_DAY09_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2365
+  Humidity corruptions: 2462
+  Time corruptions: 358
+  Whitespace additions: 82
+  Blank lines added: 1194
+SUCCESS: SENSOR07_DAY09.csv -> SENSOR07_DAY09_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2461
+  Humidity corruptions: 2435
+  Time corruptions: 331
+  Whitespace additions: 62
+  Blank lines added: 1264
+SUCCESS: SENSOR08_DAY09.csv -> SENSOR08_DAY09_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2461
+  Humidity corruptions: 2386
+  Time corruptions: 318
+  Whitespace additions: 59
+  Blank lines added: 1247
+SUCCESS: SENSOR09_DAY09.csv -> SENSOR09_DAY09_raw.csv
+  Original rows: 7200, After corruption: 6840 (Deleted: 360)
+  Temperature corruptions: 1016
+  Humidity corruptions: 1070
+  Time corruptions: 140
+  Whitespace additions: 25
+  Blank lines added: 541
+
+Day 09 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.49 seconds
+
+PROCESSING DAY 10:
+--------------------------------------------------
+SUCCESS: SENSOR01_DAY10.csv -> SENSOR01_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2342
+  Humidity corruptions: 2356
+  Time corruptions: 325
+  Whitespace additions: 63
+  Blank lines added: 1227
+SUCCESS: SENSOR02_DAY10.csv -> SENSOR02_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2494
+  Humidity corruptions: 2474
+  Time corruptions: 316
+  Whitespace additions: 44
+  Blank lines added: 1205
+SUCCESS: SENSOR03_DAY10.csv -> SENSOR03_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2484
+  Humidity corruptions: 2509
+  Time corruptions: 332
+  Whitespace additions: 65
+  Blank lines added: 1181
+SUCCESS: SENSOR04_DAY10.csv -> SENSOR04_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2439
+  Humidity corruptions: 2476
+  Time corruptions: 342
+  Whitespace additions: 72
+  Blank lines added: 1217
+SUCCESS: SENSOR05_DAY10.csv -> SENSOR05_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2534
+  Humidity corruptions: 2458
+  Time corruptions: 330
+  Whitespace additions: 87
+  Blank lines added: 1244
+SUCCESS: SENSOR06_DAY10.csv -> SENSOR06_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2397
+  Humidity corruptions: 2466
+  Time corruptions: 355
+  Whitespace additions: 68
+  Blank lines added: 1238
+SUCCESS: SENSOR07_DAY10.csv -> SENSOR07_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2450
+  Humidity corruptions: 2513
+  Time corruptions: 339
+  Whitespace additions: 58
+  Blank lines added: 1260
+SUCCESS: SENSOR08_DAY10.csv -> SENSOR08_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2430
+  Humidity corruptions: 2363
+  Time corruptions: 366
+  Whitespace additions: 53
+  Blank lines added: 1254
+SUCCESS: SENSOR09_DAY10.csv -> SENSOR09_DAY10_raw.csv
+  Original rows: 17280, After corruption: 16416 (Deleted: 864)
+  Temperature corruptions: 2457
+  Humidity corruptions: 2480
+  Time corruptions: 331
+  Whitespace additions: 72
+  Blank lines added: 1270
+
+Day 10 Summary:
+  Files processed: 9
+  Successful: 9
+  Time taken: 1.71 seconds
+
+======================================================================
+CORRUPTION PROCESS DETAILED REPORT
+======================================================================
+
+FILE PROCESSING SUMMARY:
+----------------------------------------
+Total files attempted: 90
+Successfully corrupted: 64
+Failed: 0
+Skipped (empty/missing): 26
+Empty files: 26
+Success rate: 71.1%
+
+ROW-LEVEL STATISTICS:
+----------------------------------------
+Total rows processed: 1,014,676
+Rows with corruption: 289,138
+Rows deleted (5% random): 50,734
+Corruption rate: 28.5%
+Deletion rate: 5.0%
+
+CORRUPTION TYPE BREAKDOWN:
+----------------------------------------
+Empty String: 116,015 (30.2%)
+Nan String: 86,545 (22.5%)
+Invalid Number: 86,578 (22.5%)
+Time Corrupted: 19,501 (5.1%)
+Whitespace Added: 3,849 (1.0%)
+Blank Lines Added: 72,053 (18.7%)
+
+PERFORMANCE METRICS:
+----------------------------------------
+Processing time: 12.14 seconds
+Average time per file: 0.190 seconds
+
+EXPECTED VS ACTUAL CORRUPTION RATES:
+----------------------------------------
+Expected corruption rate: 15%
+Actual corruption rate: 28.5%
+Expected corrupted values: 304403
+Actual corrupted values: 289,138
+
+======================================================================
+PROCESSING COMPLETE
+======================================================================
+Total processing time: 12.14 seconds
+Report saved to: data/raw/_corruption.log

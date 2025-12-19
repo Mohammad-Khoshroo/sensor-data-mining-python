@@ -1,36 +1,71 @@
-=== FINAL STATISTICAL ANALYSIS REPORT ===
+=== CITY WEATHER STATISTICS REPORT ===
 
-OVERALL CITY TEMPERATURE AVERAGE: 11.21°C
-OVERALL CITY HUMIDITY AVERAGE:    75.48%
-=================================================================
+City Averages:
+  Temperature : 11.62 °C
+  Humidity    : 73.62 %
 
-SENSOR: SENSOR01
-  > Activity Info: 802 mins active (09:26 -> 23:59)
-  > Valid Records: Temp: 707, Hum: 715
-  > Temperature:   Avg: 11.23, StdDev: 2.83, Min: 0.0, Max: 21.4
-  > Humidity:      Avg: 75.16, StdDev: 13.03, Min: 0.0, Max: 95.0
--------------------------------------------------------
-SENSOR: SENSOR02
-  > Activity Info: 800 mins active (09:26 -> 23:59)
-  > Valid Records: Temp: 705, Hum: 707
-  > Temperature:   Avg: 10.95, StdDev: 3.03, Min: 0.0, Max: 22.2
-  > Humidity:      Avg: 77.12, StdDev: 13.82, Min: 0.0, Max: 99.9
--------------------------------------------------------
-SENSOR: SENSOR03
-  > Activity Info: 2 mins active (09:27 -> 09:29)
-  > Valid Records: Temp: 2, Hum: 2
-  > Temperature:   Avg: 21.15, StdDev: 0.05, Min: 21.1, Max: 21.2
-  > Humidity:      Avg: 67.8, StdDev: 0.2, Min: 67.6, Max: 68.0
--------------------------------------------------------
-SENSOR: SENSOR04
-  > Activity Info: 803 mins active (09:28 -> 23:59)
-  > Valid Records: Temp: 710, Hum: 713
-  > Temperature:   Avg: 11.41, StdDev: 2.67, Min: 0.0, Max: 22.0
-  > Humidity:      Avg: 74.19, StdDev: 14.51, Min: 0.0, Max: 94.6
--------------------------------------------------------
-SENSOR: SENSOR05
-  > Activity Info: 0 mins active (N/A -> N/A)
-  > Valid Records: Temp: 0, Hum: 0
-  > Temperature:   Avg: 0, StdDev: 0, Min: N/A, Max: N/A
-  > Humidity:      Avg: 0, StdDev: 0, Min: N/A, Max: N/A
--------------------------------------------------------
+============================================================
+
+Sensor: SENSOR01
+  Active time_quantum: 9566
+  Time range         : 09:26:30 → 23:59:55
+  Valid records      : Temp=8409 | Hum=8499
+  Temperature (°C)   : avg=11.21, min=0.0, max=21.4, std=2.83
+  Humidity (%)       : avg=74.74, min=0.0, max=95.1, std=13.67
+--------------------------------------------------
+Sensor: SENSOR02
+  Active time_quantum: 9600
+  Time range         : 09:26:20 → 23:59:55
+  Valid records      : Temp=8498 | Hum=8478
+  Temperature (°C)   : avg=11.02, min=0.0, max=22.2, std=2.86
+  Humidity (%)       : avg=76.76, min=0.0, max=99.9, std=14.11
+--------------------------------------------------
+Sensor: SENSOR03
+  Active time_quantum: 6
+  Time range         : 09:27:50 → 09:29:45
+  Valid records      : Temp=6 | Hum=5
+  Temperature (°C)   : avg=21.07, min=21.0, max=21.2, std=0.07
+  Humidity (%)       : avg=68.56, min=67.6, max=70.0, std=0.93
+--------------------------------------------------
+Sensor: SENSOR04
+  Active time_quantum: 9532
+  Time range         : 09:28:45 → 23:59:55
+  Valid records      : Temp=8360 | Hum=8433
+  Temperature (°C)   : avg=11.26, min=0.0, max=22.0, std=2.79
+  Humidity (%)       : avg=74.43, min=0.0, max=94.6, std=13.56
+--------------------------------------------------
+Sensor: SENSOR05
+  Active time_quantum: 0
+  Time range         : None → None
+  Valid records      : Temp=0 | Hum=0
+  Temperature (°C)   : avg=None, min=None, max=None, std=None
+  Humidity (%)       : avg=None, min=None, max=None, std=None
+--------------------------------------------------
+Sensor: SENSOR06
+  Active time_quantum: 9539
+  Time range         : 09:31:55 → 23:59:55
+  Valid records      : Temp=8449 | Hum=8375
+  Temperature (°C)   : avg=10.71, min=0.0, max=22.5, std=2.54
+  Humidity (%)       : avg=75.71, min=0.0, max=99.9, std=15.09
+--------------------------------------------------
+Sensor: SENSOR07
+  Active time_quantum: 9533
+  Time range         : 09:33:35 → 23:59:55
+  Valid records      : Temp=8375 | Hum=8412
+  Temperature (°C)   : avg=11.27, min=0.0, max=22.8, std=2.57
+  Humidity (%)       : avg=77.57, min=0.0, max=98.1, std=14.59
+--------------------------------------------------
+Sensor: SENSOR08
+  Active time_quantum: 9504
+  Time range         : 09:35:25 → 23:59:55
+  Valid records      : Temp=8314 | Hum=8393
+  Temperature (°C)   : avg=14.28, min=0.0, max=22.3, std=2.66
+  Humidity (%)       : avg=62.48, min=0.0, max=84.1, std=11.74
+--------------------------------------------------
+Sensor: SENSOR09
+  Active time_quantum: 0
+  Time range         : None → None
+  Valid records      : Temp=0 | Hum=0
+  Temperature (°C)   : avg=None, min=None, max=None, std=None
+  Humidity (%)       : avg=None, min=None, max=None, std=None
+--------------------------------------------------

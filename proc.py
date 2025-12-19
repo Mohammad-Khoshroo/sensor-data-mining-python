@@ -1,17 +1,16 @@
 import math
 
 def validate_field(val_raw, field_name, v_range, invalid_tokens):
-    """
-    Validates a single field (Temperature or Humidity).
-    Categorizes errors into Missing Data, Invalid Data, or Sensor Fault [cite: 89-91, 150].
-    """
+    
     error_type = None
-    final_val = "NoF"
+    final_val = "N/A"
     
     if not val_raw:
         error_type = "Missing Data"
+    
     elif val_raw.upper() in invalid_tokens:
         error_type = "Invalid Data"
+    
     else:
         try:
             val_num = float(val_raw)
@@ -25,74 +24,131 @@ def validate_field(val_raw, field_name, v_range, invalid_tokens):
     return final_val, error_type
 
 def identify_gaps(timeline, found_minutes, sensor):
-    """Identifies time slots where no entry was recorded for a sensor[cite: 182]."""
+    
     missing_minutes = set(timeline) - found_minutes
     gaps = []
     for m_time in missing_minutes:
-        gaps.append({
+        gaps.append(
+            {
             "time": m_time,
             "sensor": sensor,
-            "type": "GAP",
+            "type": "UNRECIEVED",
             "msg": "Missing data entry",
             "raw": "N/A"
-        })
+            }
+        )
     return gaps
 
+def get_average(values):
+    valid_vals = [v for v in values if isinstance(v, (int, float))]
+    return round(sum(valid_vals) / len(valid_vals), 2) if valid_vals else "N/A"
+
+def get_std(data, avg):
+    if len(data) < 2:
+        return 0
+    variance = sum((x - avg) ** 2 for x in data) / len(data)
+    return math.sqrt(variance)
+
 def statistics(normalized_data, sensor_names):
-    """
-    Calculates comprehensive statistics: Min, Max, Avg, StdDev, and Activity span.
-    Ensures all Temperature and Humidity metrics are preserved.
-    """
-    stats_summary = {"individual_sensors": {}, "city_metrics": {}}
-    all_city_temps = []
-    all_city_hums = []
+
+    sensors_summary = {}
+    city_summary = {
+        "temps": [],
+        "hums": []
+    }
 
     for s in sensor_names:
-        # استخراج زمان‌هایی که سنسور حداقل یک دیتای معتبر داشته است
-        active_times = [
-            t for t, data in normalized_data.items() 
-            if isinstance(data[s]['temp'], (int, float)) or isinstance(data[s]['hum'], (int, float))
-        ]
-        
-        # استخراج جداگانه مقادیر عددی برای محاسبات ریاضی
-        temps = [row[s]['temp'] for row in normalized_data.values() if isinstance(row[s]['temp'], (int, float))]
-        hums = [row[s]['hum'] for row in normalized_data.values() if isinstance(row[s]['hum'], (int, float))]
-        
-        all_city_temps.extend(temps)
-        all_city_hums.extend(hums)
 
-        def get_std(data, avg):
-            if len(data) < 2: return 0
-            variance = sum((x - avg) ** 2 for x in data) / len(data)
-            return math.sqrt(variance)
+        temps = []
+        hums = []
+        active_times = []
 
-        # محاسبات دما
-        t_avg = sum(temps) / len(temps) if temps else 0
-        # محاسبات رطوبت (حفظ کامل اطلاعات)
-        h_avg = sum(hums) / len(hums) if hums else 0
-        
-        stats_summary["individual_sensors"][s] = {
+        for t, row in normalized_data.items():
+            temp = row[s]["temp"]
+            hum = row[s]["hum"]
+
+            valid = False
+
+            if isinstance(temp, float):
+                temps.append(temp)
+                valid = True
+
+            if isinstance(hum, float):
+                hums.append(hum)
+                valid = True
+
+            if valid:
+                active_times.append(t)
+
+        city_summary["temps"].extend(temps)
+        city_summary["hums"].extend(hums)
+
+        t_avg = sum(temps) / len(temps) if temps else None
+        h_avg = sum(hums) / len(hums) if hums else None
+
+        sensors_summary[s] = {
             "temperature": {
-                "avg": round(t_avg, 2), "min": min(temps) if temps else "N/A", 
-                "max": max(temps) if temps else "N/A", "std": round(get_std(temps, t_avg), 2),
+                "values": temps,
+                "avg": round(t_avg, 2) if t_avg is not None else None,
+                "min": min(temps) if temps else None,
+                "max": max(temps) if temps else None,
+                "std": round(get_std(temps, t_avg), 2) if t_avg is not None else None,
                 "valid_count": len(temps)
             },
             "humidity": {
-                "avg": round(h_avg, 2), "min": min(hums) if hums else "N/A", 
-                "max": max(hums) if hums else "N/A", "std": round(get_std(hums, h_avg), 2),
+                "values": hums,
+                "avg": round(h_avg, 2) if h_avg is not None else None,
+                "min": min(hums) if hums else None,
+                "max": max(hums) if hums else None,
+                "std": round(get_std(hums, h_avg), 2) if h_avg is not None else None,
                 "valid_count": len(hums)
             },
             "activity": {
-                "total_active_mins": len(active_times),
-                "start_time": min(active_times) if active_times else "N/A",
-                "end_time": max(active_times) if active_times else "N/A"
+                "active_count": len(active_times),
+                "start_time": min(active_times) if active_times else None,
+                "end_time": max(active_times) if active_times else None
             }
         }
 
-    # محاسبات میانگین کل شهر برای دما و رطوبت
-    if all_city_temps:
-        stats_summary["city_metrics"]["avg_temp"] = round(sum(all_city_temps) / len(all_city_temps), 2)
-    if all_city_hums:
-        stats_summary["city_metrics"]["avg_hum"] = round(sum(all_city_hums) / len(all_city_hums), 2)
+    temps = city_summary["temps"]
+    hums = city_summary["hums"]
 
-    return stats_summary
+    city_summary.update({
+        "avg_temp": round(sum(temps) / len(temps), 2) if temps else None,
+        "min_temp": min(temps) if temps else None,
+        "max_temp": max(temps) if temps else None,
+        "avg_hum": round(sum(hums) / len(hums), 2) if hums else None,
+        "min_hum": min(hums) if hums else None,
+        "max_hum": max(hums) if hums else None,
+        "total_temp_records": len(temps),
+        "total_hum_records": len(hums)
+    })
+
+    return city_summary, sensors_summary
+
+
+def aggregate_data(data, sensor_names, level="minutely"):
+    new_data = {}
+    
+    if level == "minutely":
+        time_keys = [f"{h:02d}:{m:02d}" for h in range(24) for m in range(60)]
+        for tk in time_keys:
+            new_data[tk] = {}
+            for s in sensor_names:
+                samples = [data[f"{tk}:{sec:02d}"][s] for sec in range(0, 60, 5)]
+                new_data[tk][s] = {
+                    "temp": get_average([samp["temp"] for samp in samples]),
+                    "hum":  get_average([samp["hum"] for samp in samples])
+                }
+                
+    elif level == "hourly":
+        time_keys = [f"{h:02d}" for h in range(24)]
+        for tk in time_keys:
+            new_data[tk] = {}
+            for s in sensor_names:
+                samples = [data[f"{tk}:{m:02d}"][s] for m in range(60)]
+                new_data[tk][s] = {
+                    "temp": get_average([samp["temp"] for samp in samples]),
+                    "hum":  get_average([samp["hum"] for samp in samples])
+                }
+    return new_data

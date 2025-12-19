@@ -1,0 +1,914 @@
+{
+  "00": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "01": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "02": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "03": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "04": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "05": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "06": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "07": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "08": {
+    "SENSOR01": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR02": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR07": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR08": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "09": {
+    "SENSOR01": {
+      "temp": 18.9,
+      "hum": 63.56
+    },
+    "SENSOR02": {
+      "temp": 19.43,
+      "hum": 64.33
+    },
+    "SENSOR03": {
+      "temp": 21.09,
+      "hum": 68.54
+    },
+    "SENSOR04": {
+      "temp": 19.21,
+      "hum": 62.3
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 17.57,
+      "hum": 67.3
+    },
+    "SENSOR07": {
+      "temp": 17.34,
+      "hum": 70.7
+    },
+    "SENSOR08": {
+      "temp": 18.88,
+      "hum": 62.92
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "10": {
+    "SENSOR01": {
+      "temp": 12.17,
+      "hum": 69.62
+    },
+    "SENSOR02": {
+      "temp": 11.91,
+      "hum": 72.4
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 12.36,
+      "hum": 69.16
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 11.37,
+      "hum": 72.89
+    },
+    "SENSOR07": {
+      "temp": 11.93,
+      "hum": 72.69
+    },
+    "SENSOR08": {
+      "temp": 15.1,
+      "hum": 59.82
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "11": {
+    "SENSOR01": {
+      "temp": 12.13,
+      "hum": 84.11
+    },
+    "SENSOR02": {
+      "temp": 12.04,
+      "hum": 85.82
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 12.07,
+      "hum": 84.94
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 11.63,
+      "hum": 87.0
+    },
+    "SENSOR07": {
+      "temp": 12.37,
+      "hum": 86.45
+    },
+    "SENSOR08": {
+      "temp": 15.2,
+      "hum": 71.29
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "12": {
+    "SENSOR01": {
+      "temp": 12.62,
+      "hum": 81.41
+    },
+    "SENSOR02": {
+      "temp": 12.11,
+      "hum": 83.2
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 12.41,
+      "hum": 80.92
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 12.02,
+      "hum": 82.71
+    },
+    "SENSOR07": {
+      "temp": 12.69,
+      "hum": 84.71
+    },
+    "SENSOR08": {
+      "temp": 15.81,
+      "hum": 67.83
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "13": {
+    "SENSOR01": {
+      "temp": 11.6,
+      "hum": 76.09
+    },
+    "SENSOR02": {
+      "temp": 11.25,
+      "hum": 78.06
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 11.66,
+      "hum": 76.23
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 11.14,
+      "hum": 76.6
+    },
+    "SENSOR07": {
+      "temp": 11.84,
+      "hum": 78.15
+    },
+    "SENSOR08": {
+      "temp": 14.89,
+      "hum": 63.83
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "14": {
+    "SENSOR01": {
+      "temp": 11.52,
+      "hum": 79.46
+    },
+    "SENSOR02": {
+      "temp": 11.09,
+      "hum": 81.04
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 11.49,
+      "hum": 78.42
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 11.08,
+      "hum": 81.64
+    },
+    "SENSOR07": {
+      "temp": 11.63,
+      "hum": 81.95
+    },
+    "SENSOR08": {
+      "temp": 14.84,
+      "hum": 65.97
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "15": {
+    "SENSOR01": {
+      "temp": 12.6,
+      "hum": 89.05
+    },
+    "SENSOR02": {
+      "temp": 12.29,
+      "hum": 91.88
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 12.24,
+      "hum": 89.2
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 12.07,
+      "hum": 93.81
+    },
+    "SENSOR07": {
+      "temp": 12.62,
+      "hum": 92.14
+    },
+    "SENSOR08": {
+      "temp": 15.66,
+      "hum": 74.19
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "16": {
+    "SENSOR01": {
+      "temp": 13.32,
+      "hum": 80.62
+    },
+    "SENSOR02": {
+      "temp": 13.1,
+      "hum": 84.5
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 13.24,
+      "hum": 81.96
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 12.77,
+      "hum": 83.05
+    },
+    "SENSOR07": {
+      "temp": 13.41,
+      "hum": 85.2
+    },
+    "SENSOR08": {
+      "temp": 16.43,
+      "hum": 67.18
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "17": {
+    "SENSOR01": {
+      "temp": 12.01,
+      "hum": 72.72
+    },
+    "SENSOR02": {
+      "temp": 11.99,
+      "hum": 75.01
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 12.32,
+      "hum": 72.29
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 11.81,
+      "hum": 72.48
+    },
+    "SENSOR07": {
+      "temp": 12.42,
+      "hum": 76.23
+    },
+    "SENSOR08": {
+      "temp": 15.36,
+      "hum": 59.93
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "18": {
+    "SENSOR01": {
+      "temp": 10.74,
+      "hum": 69.46
+    },
+    "SENSOR02": {
+      "temp": 10.63,
+      "hum": 71.04
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 10.93,
+      "hum": 68.61
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 10.41,
+      "hum": 67.64
+    },
+    "SENSOR07": {
+      "temp": 11.03,
+      "hum": 71.3
+    },
+    "SENSOR08": {
+      "temp": 14.24,
+      "hum": 56.65
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "19": {
+    "SENSOR01": {
+      "temp": 9.33,
+      "hum": 65.65
+    },
+    "SENSOR02": {
+      "temp": 9.08,
+      "hum": 67.21
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 9.48,
+      "hum": 64.3
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 8.96,
+      "hum": 64.71
+    },
+    "SENSOR07": {
+      "temp": 9.54,
+      "hum": 66.92
+    },
+    "SENSOR08": {
+      "temp": 12.55,
+      "hum": 53.81
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "20": {
+    "SENSOR01": {
+      "temp": 9.01,
+      "hum": 71.48
+    },
+    "SENSOR02": {
+      "temp": 8.93,
+      "hum": 73.65
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 9.25,
+      "hum": 71.12
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 8.82,
+      "hum": 70.61
+    },
+    "SENSOR07": {
+      "temp": 9.35,
+      "hum": 73.81
+    },
+    "SENSOR08": {
+      "temp": 12.39,
+      "hum": 58.87
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "21": {
+    "SENSOR01": {
+      "temp": 8.38,
+      "hum": 71.13
+    },
+    "SENSOR02": {
+      "temp": 8.39,
+      "hum": 73.57
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 8.55,
+      "hum": 70.67
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 8.22,
+      "hum": 70.37
+    },
+    "SENSOR07": {
+      "temp": 8.77,
+      "hum": 74.07
+    },
+    "SENSOR08": {
+      "temp": 11.62,
+      "hum": 58.64
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "22": {
+    "SENSOR01": {
+      "temp": 9.04,
+      "hum": 72.86
+    },
+    "SENSOR02": {
+      "temp": 8.98,
+      "hum": 74.18
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 9.14,
+      "hum": 72.58
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 8.66,
+      "hum": 72.23
+    },
+    "SENSOR07": {
+      "temp": 9.27,
+      "hum": 74.94
+    },
+    "SENSOR08": {
+      "temp": 12.38,
+      "hum": 60.1
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  },
+  "23": {
+    "SENSOR01": {
+      "temp": 8.15,
+      "hum": 68.87
+    },
+    "SENSOR02": {
+      "temp": 7.99,
+      "hum": 70.05
+    },
+    "SENSOR03": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR04": {
+      "temp": 8.4,
+      "hum": 67.82
+    },
+    "SENSOR05": {
+      "temp": "N/A",
+      "hum": "N/A"
+    },
+    "SENSOR06": {
+      "temp": 7.92,
+      "hum": 68.14
+    },
+    "SENSOR07": {
+      "temp": 8.53,
+      "hum": 69.97
+    },
+    "SENSOR08": {
+      "temp": 11.53,
+      "hum": 55.95
+    },
+    "SENSOR09": {
+      "temp": "N/A",
+      "hum": "N/A"
+    }
+  }
+}
