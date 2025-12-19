@@ -2,11 +2,9 @@ import pandas as pd
 from datetime import datetime
 import os
 
-# Define ranges
 days = [f"{i:02d}" for i in range(1, 11)]  # 01 to 10
 sensors = [str(i) for i in range(1, 10)]   # 1 to 9
 
-# Setup
 log_file = f"data/raw/_separation.log"
 empty_df = pd.DataFrame(columns=['Date', 'Time', 'Temperature (C)', 'Humidity (%)'])
 
@@ -27,7 +25,7 @@ with open(log_file, 'w', encoding='utf-8') as log:
         day_results = {"day": day, "total": 0, "with_data": 0, "empty": 0}
         
         for sensor in sensors:
-            # Format sensor number with leading zero
+
             sensor_num = f"0{sensor}" if len(sensor) == 1 else sensor
             input_path = f'data/raw/SENSOR{sensor_num}.CSV'
             output_path = f'data/raw/SENSOR{sensor_num}_DAY{day}.csv'
@@ -52,7 +50,6 @@ with open(log_file, 'w', encoding='utf-8') as log:
                     day_results["empty"] += 1
                     continue
                 
-                # Process data
                 df['Temperature (C)'] = pd.to_numeric(df['Temperature (C)'], errors='coerce')
                 df['Humidity (%)'] = pd.to_numeric(df['Humidity (%)'], errors='coerce')
                 
@@ -78,7 +75,6 @@ with open(log_file, 'w', encoding='utf-8') as log:
         results.append(day_results)
         log.write(f"  Summary: {day_results['with_data']}/{day_results['total']} with data\n")
     
-    # Final report
     log.write("\n" + "=" * 60 + "\n")
     log.write("FINAL SUMMARY\n")
     log.write("=" * 60 + "\n")
@@ -97,13 +93,12 @@ with open(log_file, 'w', encoding='utf-8') as log:
         coverage = (total_with_data / total_files) * 100
         log.write(f"Data coverage: {coverage:.1f}%\n")
     
-    # Day-by-day breakdown
     log.write("\nDay-by-day breakdown:\n")
     for r in results:
         coverage = (r["with_data"] / r["total"] * 100) if r["total"] > 0 else 0
         log.write(f"  Day {r['day']}: {r['with_data']}/{r['total']} ({coverage:.1f}%)\n")
 
-print(f"\n✅ Processing complete!")
-print(f"📊 Generated {total_files} files")
-print(f"📈 {total_with_data} files contain data ({coverage:.1f}% coverage)")
-print(f"📁 Log file: {log_file}")
+print(f"\nProcessing complete!")
+print(f"Generated {total_files} files")
+print(f"{total_with_data} files contain data ({coverage:.1f}% coverage)")
+print(f"Log file: {log_file}")
