@@ -40,15 +40,21 @@ def identify_gaps(timeline, found_minutes, sensor):
 
 def statistics(normalized_data, sensor_names):
     """
-    Calculates advanced metrics including Standard Deviation and City-wide averages.
-    Filters out 'NoF' entries to ensure mathematical accuracy.
+    Calculates comprehensive statistics: Min, Max, Avg, StdDev, and Activity span.
+    Ensures all Temperature and Humidity metrics are preserved.
     """
     stats_summary = {"individual_sensors": {}, "city_metrics": {}}
     all_city_temps = []
     all_city_hums = []
 
     for s in sensor_names:
-        # Extract numeric values only
+        # استخراج زمان‌هایی که سنسور حداقل یک دیتای معتبر داشته است
+        active_times = [
+            t for t, data in normalized_data.items() 
+            if isinstance(data[s]['temp'], (int, float)) or isinstance(data[s]['hum'], (int, float))
+        ]
+        
+        # استخراج جداگانه مقادیر عددی برای محاسبات ریاضی
         temps = [row[s]['temp'] for row in normalized_data.values() if isinstance(row[s]['temp'], (int, float))]
         hums = [row[s]['hum'] for row in normalized_data.values() if isinstance(row[s]['hum'], (int, float))]
         
@@ -60,26 +66,30 @@ def statistics(normalized_data, sensor_names):
             variance = sum((x - avg) ** 2 for x in data) / len(data)
             return math.sqrt(variance)
 
-        # Individual Sensor Stats
+        # محاسبات دما
         t_avg = sum(temps) / len(temps) if temps else 0
+        # محاسبات رطوبت (حفظ کامل اطلاعات)
         h_avg = sum(hums) / len(hums) if hums else 0
         
         stats_summary["individual_sensors"][s] = {
             "temperature": {
-                "avg": round(t_avg, 2),
-                "min": min(temps) if temps else "N/A",
-                "max": max(temps) if temps else "N/A",
-                "std": round(get_std(temps, t_avg), 2) if temps else 0
+                "avg": round(t_avg, 2), "min": min(temps) if temps else "N/A", 
+                "max": max(temps) if temps else "N/A", "std": round(get_std(temps, t_avg), 2),
+                "valid_count": len(temps)
             },
             "humidity": {
-                "avg": round(h_avg, 2),
-                "min": min(hums) if hums else "N/A",
-                "max": max(hums) if hums else "N/A",
-                "std": round(get_std(hums, h_avg), 2) if hums else 0
+                "avg": round(h_avg, 2), "min": min(hums) if hums else "N/A", 
+                "max": max(hums) if hums else "N/A", "std": round(get_std(hums, h_avg), 2),
+                "valid_count": len(hums)
+            },
+            "activity": {
+                "total_active_mins": len(active_times),
+                "start_time": min(active_times) if active_times else "N/A",
+                "end_time": max(active_times) if active_times else "N/A"
             }
         }
 
-    # City-wide Aggregates (Global Average)
+    # محاسبات میانگین کل شهر برای دما و رطوبت
     if all_city_temps:
         stats_summary["city_metrics"]["avg_temp"] = round(sum(all_city_temps) / len(all_city_temps), 2)
     if all_city_hums:

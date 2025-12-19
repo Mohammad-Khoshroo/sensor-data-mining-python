@@ -47,43 +47,37 @@ def generate_data_json(data_dict, output_path):
 
 def statistics_report(stats, output_path):
     """
-    Generates a professional statistical report file.
-    Includes individual sensor details and city-wide averages.
+    Generates a full report for console and file, preserving all city and sensor metrics.
     """
-    # --- Console Output Section ---
-    print("\n" + "="*50)
-    print("      CITY-WIDE INFRASTRUCTURE REPORT      ")
-    print("="*50)
+    print("\n" + "="*65)
+    print("      CITY-WIDE INFRASTRUCTURE & SENSOR ACTIVITY REPORT      ")
+    print("="*65)
     
     city = stats["city_metrics"]
-    print(f"OVERALL CITY AVERAGE: Temp: {city.get('avg_temp', 'N/A')}°C | Hum: {city.get('avg_hum', 'N/A')}%")
-    print("-" * 50)
+    print(f"CITY AVERAGES | Temp: {city.get('avg_temp', 'N/A')}°C | Humidity: {city.get('avg_hum', 'N/A')}%")
+    print("-" * 65)
 
     for s, data in stats["individual_sensors"].items():
-        # Using lowercase keys as defined in your processor
-        t, h = data["temperature"], data["humidity"]
+        t, h, act = data["temperature"], data["humidity"], data["activity"]
         print(f"SENSOR: {s}")
-        print(f"  [Temp] Avg: {t['avg']:<6} | StdDev: {t['std']:<6} | Min/Max: {t['min']}/{t['max']}")
-        print(f"  [Hum ] Avg: {h['avg']:<6} | StdDev: {h['std']:<6} | Min/Max: {h['min']}/{h['max']}")
-        print("-" * 30)
+        print(f"  [Uptime] Valid Records: {t['valid_count']} | Active: {act['total_active_mins']} mins | Range: {act['start_time']} to {act['end_time']}")
+        print(f"  [Temp]   Avg: {t['avg']:<6} | StdDev: {t['std']:<6} | Min/Max: {t['min']}/{t['max']}")
+        print(f"  [Hum]    Avg: {h['avg']:<6} | StdDev: {h['std']:<6} | Min/Max: {h['min']}/{h['max']}")
+        print("-" * 50)
         
-    # --- File Output Section ---
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write("=== ADVANCED STATISTICAL ANALYSIS REPORT ===\n")
-        f.write("-" * 50 + "\n")
-        
-        f.write(f"CITY-WIDE AVERAGE:\n")
-        f.write(f"  > Temperature: {city.get('avg_temp', 'N/A')}°C\n")
-        f.write(f"  > Humidity:    {city.get('avg_hum', 'N/A')}%\n")
-        f.write("-" * 50 + "\n\n")
+        f.write("=== FINAL STATISTICAL ANALYSIS REPORT ===\n\n")
+        f.write(f"OVERALL CITY TEMPERATURE AVERAGE: {city.get('avg_temp', 'N/A')}°C\n")
+        f.write(f"OVERALL CITY HUMIDITY AVERAGE:    {city.get('avg_hum', 'N/A')}%\n")
+        f.write("="*65 + "\n\n")
 
         for s, data in stats["individual_sensors"].items():
-            # FIXED: Changed "Temperature" -> "temperature" 
-            # and "Humidity" -> "humidity" to match keys
-            t, h = data["temperature"], data["humidity"]
+            t, h, act = data["temperature"], data["humidity"], data["activity"]
             f.write(f"SENSOR: {s}\n")
-            f.write(f"  [Temperature] Avg: {t['avg']:<6} | StdDev: {t['std']:<6} | Range: [{t['min']}, {t['max']}]\n")
-            f.write(f"  [Humidity]    Avg: {h['avg']:<6} | StdDev: {h['std']:<6} | Range: [{h['min']}, {h['max']}]\n")
-            f.write("." * 40 + "\n")
+            f.write(f"  > Activity Info: {act['total_active_mins']} mins active ({act['start_time']} -> {act['end_time']})\n")
+            f.write(f"  > Valid Records: Temp: {t['valid_count']}, Hum: {h['valid_count']}\n")
+            f.write(f"  > Temperature:   Avg: {t['avg']}, StdDev: {t['std']}, Min: {t['min']}, Max: {t['max']}\n")
+            f.write(f"  > Humidity:      Avg: {h['avg']}, StdDev: {h['std']}, Min: {h['min']}, Max: {h['max']}\n")
+            f.write("-" * 55 + "\n")
             
-    print(f"Statistical report generated at: {output_path}")
+    print(f"\n[SUCCESS] Full statistics saved at: {output_path}")

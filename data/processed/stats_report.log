@@ -1,27 +1,36 @@
-=== ADVANCED STATISTICAL ANALYSIS REPORT ===
---------------------------------------------------
-CITY-WIDE AVERAGE:
-  > Temperature: 11.21°C
-  > Humidity:    75.48%
---------------------------------------------------
+=== FINAL STATISTICAL ANALYSIS REPORT ===
+
+OVERALL CITY TEMPERATURE AVERAGE: 11.21°C
+OVERALL CITY HUMIDITY AVERAGE:    75.48%
+=================================================================
 
 SENSOR: SENSOR01
-  [Temperature] Avg: 11.23  | StdDev: 2.83   | Range: [0.0, 21.4]
-  [Humidity]    Avg: 75.16  | StdDev: 13.03  | Range: [0.0, 95.0]
-........................................
+  > Activity Info: 802 mins active (09:26 -> 23:59)
+  > Valid Records: Temp: 707, Hum: 715
+  > Temperature:   Avg: 11.23, StdDev: 2.83, Min: 0.0, Max: 21.4
+  > Humidity:      Avg: 75.16, StdDev: 13.03, Min: 0.0, Max: 95.0
+-------------------------------------------------------
 SENSOR: SENSOR02
-  [Temperature] Avg: 10.95  | StdDev: 3.03   | Range: [0.0, 22.2]
-  [Humidity]    Avg: 77.12  | StdDev: 13.82  | Range: [0.0, 99.9]
-........................................
+  > Activity Info: 800 mins active (09:26 -> 23:59)
+  > Valid Records: Temp: 705, Hum: 707
+  > Temperature:   Avg: 10.95, StdDev: 3.03, Min: 0.0, Max: 22.2
+  > Humidity:      Avg: 77.12, StdDev: 13.82, Min: 0.0, Max: 99.9
+-------------------------------------------------------
 SENSOR: SENSOR03
-  [Temperature] Avg: 21.15  | StdDev: 0.05   | Range: [21.1, 21.2]
-  [Humidity]    Avg: 67.8   | StdDev: 0.2    | Range: [67.6, 68.0]
-........................................
+  > Activity Info: 2 mins active (09:27 -> 09:29)
+  > Valid Records: Temp: 2, Hum: 2
+  > Temperature:   Avg: 21.15, StdDev: 0.05, Min: 21.1, Max: 21.2
+  > Humidity:      Avg: 67.8, StdDev: 0.2, Min: 67.6, Max: 68.0
+-------------------------------------------------------
 SENSOR: SENSOR04
-  [Temperature] Avg: 11.41  | StdDev: 2.67   | Range: [0.0, 22.0]
-  [Humidity]    Avg: 74.19  | StdDev: 14.51  | Range: [0.0, 94.6]
-........................................
+  > Activity Info: 803 mins active (09:28 -> 23:59)
+  > Valid Records: Temp: 710, Hum: 713
+  > Temperature:   Avg: 11.41, StdDev: 2.67, Min: 0.0, Max: 22.0
+  > Humidity:      Avg: 74.19, StdDev: 14.51, Min: 0.0, Max: 94.6
+-------------------------------------------------------
 SENSOR: SENSOR05
-  [Temperature] Avg: 0      | StdDev: 0      | Range: [N/A, N/A]
-  [Humidity]    Avg: 0      | StdDev: 0      | Range: [N/A, N/A]
-........................................
+  > Activity Info: 0 mins active (N/A -> N/A)
+  > Valid Records: Temp: 0, Hum: 0
+  > Temperature:   Avg: 0, StdDev: 0, Min: N/A, Max: N/A
+  > Humidity:      Avg: 0, StdDev: 0, Min: N/A, Max: N/A
+-------------------------------------------------------
